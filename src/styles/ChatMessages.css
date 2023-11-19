@@ -1,0 +1,66 @@
+/* ChatMessages.css */
+
+.chatMessagesContainer {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.chatRoomHeader {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.messageList {
+    list-style: none;
+    padding: 0;
+}
+
+.messageItem {
+    margin-bottom: 10px;
+}
+
+.messageSender {
+    font-weight: bold;
+}
+
+.messageContent {
+    margin-left: 10px;
+}
+
+.messageInputContainer {
+    display: flex;
+    margin-top: 20px;
+}
+
+.messageInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.sendMessageButton {
+    margin-left: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.sendMessageButton:hover {
+    background-color: #45a049;
+}
+
+.errorText {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}

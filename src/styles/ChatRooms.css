@@ -1,0 +1,74 @@
+/* ChatRooms.css */
+
+.chatRoomsContainer {
+    display: flex;
+    height: 100vh;
+}
+
+.chatList {
+    width: 25%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.chatListTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.chatListItem {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    transition: background-color 0.3s;
+}
+
+.chatListItem:hover {
+    background-color: #f2f2f2;
+}
+
+.selectedChat {
+    background-color: #e6f7ff;
+    font-weight: bold;
+}
+
+.createRoomForm {
+    margin-top: 20px;
+}
+
+.createRoomForm input,
+.createRoomForm textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.createRoomForm button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.createRoomForm button:hover {
+    background-color: #45a049;
+}
+
+.errorText {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
